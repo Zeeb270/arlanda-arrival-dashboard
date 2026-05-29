@@ -1,10 +1,11 @@
 # Ignore all large/raw data downloaded from external sources
 data/raw/ESSA/
+data/raw/zenodo/
 data/raw/**/*.tsv
 data/raw/**/*.zip
 data/raw/**/*.parquet
 data/raw/**/*.csv
-
+data/raw/**/*.feather
 # But keep these small repository files
 !data/raw/README.md
 !data/raw/ESSA_stats.csv
